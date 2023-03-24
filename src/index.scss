@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import "./styles/global.scss";
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
 :root {
   --font-color: #333;
   --background-color: #d5d5d5;
