@@ -1,0 +1,26 @@
+.text-field {
+  padding: 15px;
+  border-radius: 6px;
+  background: #f3f3f3;
+}
+
+.text-field label {
+  display: inline-block;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: rgb(36, 122, 252);
+}
+
+.text-field input {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  background-color: transparent;
+  color: rgb(57, 57, 57);
+  outline: none;
+}
+.ql-toolbar.ql-snow {
+  background-color: rgb(222, 222, 222);
+}

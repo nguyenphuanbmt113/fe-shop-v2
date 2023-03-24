@@ -1,0 +1,99 @@
+.slide {
+  @apply relative;
+}
+
+.slide-img {
+  @apply absolute inset-0 bg-no-repeat bg-cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 80vh;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.font-v2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.font-v3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.font-v1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.ff {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.my-container {
+  @apply max-w-[1240px] mx-auto;
+}
+.my-bigcontainer {
+  @apply max-w-[1340px] mx-auto;
+}
+.swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
+  margin: 0;
+}
+.swiper-slide {
+  // background: #d5d5d5 !important;
+  color: var(--font-color);
+  font-weight: 500;
+}
+.quill {
+  @apply bg-white;
+}
+.hidden-bar {
+  @apply absolute shadow-md transition-all translate-x-[-1000px];
+}
+.ReactSimpleImageViewer {
+  background-color: #000000a8 !important;
+}
+//cart hover
+.card-body {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+.card:hover .card-body {
+  right: 0;
+}
+.resnavbar {
+  @apply sm:bg-white sm:absolute sm:top-0 sm:right-0 sm:z-[1000] sm:flex sm:flex-col sm:gap-3 sm:w-[300px] p-5 items-start h-[100vh];
+}

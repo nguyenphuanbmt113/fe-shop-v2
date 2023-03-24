@@ -1,0 +1,25 @@
+.text-field {
+  padding: 15px;
+  border-radius: 6px;
+  background: white  !important;
+}
+.text-field label {
+  display: inline-block;
+  color: #5a5757;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: rgb(99, 99, 99);
+}
+
+.text-field input {
+  outline: none;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #696969;
+  background-color: transparent;
+  color: #6a5af9;
+}

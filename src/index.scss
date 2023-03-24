@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./styles/global.scss";
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+}
+:root {
+  --font-color: #333;
+  --background-color: #d5d5d5;
+  --background-color-header: #ffffff;
+  --link-color: cornflowerblue;
+  --font-color-f1: rgb(27, 27, 27);
+}
+[data-theme="dark"] {
+  --font-color: #333;
+  --background-color: #4f4f4f;
+  --background-color-header: #202020;
+  --link-color: lightblue;
+  --font-color-f1: white;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+.header {
+  background-color: var(--background-color-header);
+  color: var(--font-color-f1);
+}
+// a {
+//   color: var(--link-color);
+// }
