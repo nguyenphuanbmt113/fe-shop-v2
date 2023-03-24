@@ -1,9 +1,12 @@
 .slide {
-  @apply relative;
+  position: relative;
 }
 
 .slide-img {
-  @apply absolute inset-0 bg-no-repeat bg-cover;
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .swiper {
@@ -53,10 +56,14 @@
   font-weight: 400;
 }
 .my-container {
-  @apply max-w-[1240px] mx-auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
 }
 .my-bigcontainer {
-  @apply max-w-[1340px] mx-auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1340px;
 }
 .swiper.swiper-initialized.swiper-horizontal.mySwiper.swiper-backface-hidden {
   margin: 0;
@@ -67,10 +74,12 @@
   font-weight: 500;
 }
 .quill {
-  @apply bg-white;
+  background: white;
 }
 .hidden-bar {
-  @apply absolute shadow-md transition-all translate-x-[-1000px];
+  position: absolute;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translateX(-1000px);
 }
 .ReactSimpleImageViewer {
   background-color: #000000a8 !important;
@@ -93,7 +102,4 @@
 }
 .card:hover .card-body {
   right: 0;
-}
-.resnavbar {
-  @apply sm:bg-white sm:absolute sm:top-0 sm:right-0 sm:z-[1000] sm:flex sm:flex-col sm:gap-3 sm:w-[300px] p-5 items-start h-[100vh];
 }
